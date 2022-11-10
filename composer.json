@@ -1,0 +1,22 @@
+{
+    "name": "n1215/app-runner-managed-php",
+    "type": "project",
+    "description": "Test App Runner's PHP Managed Runtime.",
+    "require": {
+        "php": "^8.1.10",
+        "monolog/monolog": "^3.2",
+        "psr/log": "^3.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "license": "MIT",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "n1215",
+            "email": "knakae1215@gmail.com"
+        }
+    ]
+}
